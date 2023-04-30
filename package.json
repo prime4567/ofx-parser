@@ -1,0 +1,19 @@
+{
+  "name": "ofx-parser",
+  "version": "0.1.0",
+  "description": "Parse OFX into nodejs object",
+  "main": "ofx-parser.js",
+  "scripts": {
+    "test": "mocha test/index.test.js"
+  },
+  "author": "prime4567",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.2.2"
+  }
+}
